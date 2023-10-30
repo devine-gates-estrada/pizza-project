@@ -24,3 +24,19 @@ h1 {
     opacity: 1;
     align-self: center;
 }
+
+.size-crust {
+    background-color: blue;
+    color: white;
+}
+
+.pg-1-card-header {
+    background-color: #F7F7F7;
+}
+
+.next-step {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

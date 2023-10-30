@@ -66,10 +66,45 @@
                             <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span class="badge rounded-pill bg-secondary">3</span>Toppings</button>
                         </li>
                     </ul>
-                    <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+                    <div class="card" style="width: 100%;">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item size-crust">Choose Size and Crust</li>
+                            <li class="list-group-item">
+                                <div class="card card-radio my-20" style="width: 100%;">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item pg-1-card-header">Hand Tossed</li>
+                                        <li class="list-group-item">Garlic seasoned crust with a rich, buttery
+                                            taste.</li>
+                                        <li class="list-group-item">
+                                            <input type="radio" name="pizza-crust" value="small-hand">
+                                            Small (10")</li>
+                                        <li class="list-group-item">
+                                            <input type="radio" name="pizza-crust" value="medium-hand">
+                                            Medium (12")</li>
+                                    </ul>
+                                </div>
+                                <br>
+                                <div class="card card-radio" style="width: 100%;">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item pg-1-card-header">Crispy Thin</li>
+                                        <li class="list-group-item">Thin enough for optimum crispy to crunchy ratio
+                                            .</li>
+                                        <li class="list-group-item">
+                                            <input type="radio" name="pizza-crust" value="medium-crispy">
+                                            Medium (12")</li>
+                                        <li class="list-group-item">
+                                            <input type="radio" name="pizza-crust" value="large-crispy">
+                                            Large (14")</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+
+                            </li>
+                        </ul>
+                        <div class="card-footer d-flex justify-content-end">
+                            <button class="next-step">Next Step</button>
+                        </div>
                     </div>
                 </nav>
             </div>
