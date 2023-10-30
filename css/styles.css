@@ -6,15 +6,18 @@
     min-height: 100dvh;
 }
 
-.background-image {
+.hero {
     height: 346px;
     background-size: cover;
     background-image: url("../images/pizza.png");
+    padding: unset;
 }
 
 .image-title {
     background: white;
     opacity: 0.70;
+    width: inherit;
+
 }
 
 h1 {
