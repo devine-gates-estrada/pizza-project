@@ -65,3 +65,9 @@ h1 {
 #menu {
     opacity: .6;
 }
+
+.image {
+    position: relative;
+    height: 50%;
+    width: 25px;
+}
