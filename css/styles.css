@@ -64,7 +64,6 @@ h1 {
 #menu {
     opacity: .6;
 }
-
 .image {
     position: relative;
     height: 50%;
@@ -79,7 +78,6 @@ a {
 .bg-secondary {
     color: white;
 }
-
 .nav-link-active {
     color: white;
 }
