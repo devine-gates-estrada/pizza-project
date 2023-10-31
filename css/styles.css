@@ -48,3 +48,20 @@ h1 {
     border: none;
     border-radius: 5px;
 }
+.btn {
+    border: 2px solid blue;
+    color: blue;
+    background-color: #ffffff;
+}
+.pizza-nav a {
+    list-style: unset;
+    text-decoration: none;
+    color: inherit;
+}
+#pizza-world {
+    font-weight: bold;
+    font-size: 18px;
+}
+#menu {
+    opacity: .6;
+}
