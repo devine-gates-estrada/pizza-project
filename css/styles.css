@@ -6,12 +6,15 @@
     min-height: 100dvh;
 }
 
+
 .hero {
     height: 346px;
     background-size: cover;
     background-image: url("../images/pizza.png");
     padding: unset;
+    margin-bottom: 50px;
 }
+
 
 .image-title {
     background: white;
@@ -26,6 +29,16 @@ h1 {
 }
 
 .size-crust {
+    background-color: blue;
+    color: white;
+}
+
+.cheese-sauce {
+    background-color: blue;
+    color: white;
+}
+
+.toppings {
     background-color: blue;
     color: white;
 }
